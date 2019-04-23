@@ -29,7 +29,7 @@ void loop() {
 		red = Serial.read();
 		green = Serial.read();
 		blue = Serial.read();
-		timeOut - millis();
+		timeOut = millis();
 	}
 	else if (millis() - timeOut > 1000) {
 		red = green = blue = 0;
